@@ -1,0 +1,16 @@
+# Agent Framework — integración A2A y clientes de modelo
+agent-framework-a2a
+agent-framework  # incluye los clientes OpenAI (agent_framework.openai) y Azure (agent_framework.azure)
+
+# Runtime del servidor A2A
+uvicorn
+starlette
+
+# Cliente HTTP usado por el cliente A2A
+httpx
+
+# Carga de variables de entorno desde .env
+python-dotenv
+
+# Validación de argumentos de las herramientas
+pydantic
